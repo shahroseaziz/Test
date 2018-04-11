@@ -1,3 +1,0 @@
-// json-rpc request for the list method
-gapi.client.rpcRequest('zoo.animals.list', 'v2',
-  name:'giraffe'}).execute(x=>console.log(x))
